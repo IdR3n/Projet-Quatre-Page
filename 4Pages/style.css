@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(42, 66, 58);
+}
+
+header {
+  background-image: url("images_exo_HTML_4_pages/header.jpg");
+  height: 400px;
+  background-size: 100% 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(36, 68, 68);
+  font-size: 60px;
+  padding-top: 50px;
+  font-weight: 800;
+}
+
+header nav {
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+}
+
+header nav a {
+  color: rgb(112, 175, 211);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+h1.page-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px;
+  font-weight: 600;
+  color: rgb(88, 131, 117);
+}
+
+.margin-horizonzal-line {
+  margin-bottom: 50px;
+  color: rgb(66, 128, 107);
+}
+
+footer {
+  margin-top: 100px;
+  height: 200px; 
+  background-color: rgb(153, 153, 153);
+}
+
+footer .copyright {
+  padding-top: 40px;
+  text-align: center;
+}

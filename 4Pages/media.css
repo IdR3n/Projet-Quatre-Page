@@ -1,0 +1,14 @@
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    background-color: rgb(122, 120, 120);
+    padding: 30px;   
+}
+
+.gallery img {
+    width: 90%;
+    border-style: groove;
+    border: 0.5rem solid;
+    border-color: rgb(255, 255, 255);
+}
